@@ -1,0 +1,261 @@
+
+
+* {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-family: sans-serif;
+}
+
+/* /////---------------------
+
+	Sticky Header 
+
+/////---------------------- */
+
+.sticky-header {
+	position: fixed;
+	height: 60px;
+	width: 100%;
+	top:0;
+	z-index: 1;
+	border-bottom: 1px solid #E7E7E7;
+	background-color: #FFF;
+}
+
+.dropdown-hamburger {
+	height: 50px;
+	width: 50px;
+	float: left;
+	margin-left: 5px;
+	margin-top: 5px;
+	background-image: url(http://i.stack.imgur.com/Fw96Z.png);
+	background-size: cover;
+}
+
+.slidedown-logo {
+	height: 100%;
+	width: 70%;
+	margin: -60px auto 0 auto;
+}
+
+.slidedown-logo-text {
+	width: 100%;
+	margin-top: 0;
+	font-size: 24px;
+	text-align: center;
+	text-transform: uppercase;
+	padding-top: 17px;
+	padding-left: 15px;
+	letter-spacing: 1.3px;
+    font-weight: 300;
+    color: #807C78;;
+}
+
+.website-navigation {
+	position: absolute;
+	display: none;
+	width: 100%;
+	top: 60px;
+	left: 0;
+	background-color: #f7f7f7;
+	z-index: 999;
+}
+
+.website-navigation ul {
+	margin: 0;
+	padding: 0;
+}
+
+.nav-button {
+	margin: 0;
+	list-style: none;
+	color: white;
+	text-align: center;
+}
+
+.nav-button:first-child {
+	border-top: 1px solid #E7E7E7;
+}
+
+.nav-button:last-child {
+	border-bottom: 1px solid #E7E7E7;
+}
+
+.nav-button:hover {
+	background-color: #e4e4e4;
+}
+
+.nav-button a {
+	display: block;
+	font-size: 16px;
+	padding: 12px;
+	text-decoration: none;
+	color: #807C78;
+}
+
+.nav-button:hover a {
+	text-decoration: none;
+	color: #807C78;
+}
+
+/* /////---------------------
+
+	content
+
+/////---------------------- */
+
+.content-wrapper {
+	padding-top: 60px;
+}
+
+/* /////---------------------
+
+	container
+
+/////---------------------- */
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.container h2 {
+	text-align: left;
+	margin-bottom: 40px;
+	font-size: 40px;
+	font-weight: 300;
+	color: #807C78;
+	text-transform: uppercase;
+}
+
+.container p {
+	margin-bottom: 40px;
+	font-size: 20px;
+ 	font-weight: 300;
+ 	color: #807C78;
+ 	text-align: left;
+ 	line-height: 28px;
+}
+
+p.personal-project {
+	text-align: center; !important
+}
+
+.parallax__layer--base {
+    padding: 40vh 0;
+    font-size: 75px;
+    color: rgba(255, 255, 255, 0.8);
+    text-transform: uppercase;
+    font-weight: 700;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.parallax__layer--base.landing {
+	padding: 25vh 0 10vh;
+}
+
+.parallax-landing p {
+	color: rgba(255, 255, 255, 0.8);
+}
+
+/* /////---------------------
+
+	sections
+
+/////---------------------- */
+
+
+section.module.content {
+	padding: 40px 0;
+}
+
+section.module.parallax {
+	height: 800px;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+section.module.parallax-landing {
+	height: 1200px;
+}
+
+
+/* /////---------------------
+
+	Images (width: 1600px, height: 1000px)
+
+/////---------------------- */
+
+.parallax-landing {
+	background-image: url(http://i.imgur.com/nfMAMZn.jpg?1);
+}
+
+.parallax-1 {
+	background-image: url(http://i.imgur.com/dCQmvJc.jpg?1);
+}
+
+.parallax-2 {
+	background-image: url(http://i.imgur.com/qVh6Q8B.jpg?1);
+}
+
+.parallax-3 {
+	background-image: url(http://i.imgur.com/CSxh1LC.jpg?1);
+}
+
+.parallax-4 {
+	background-image: url(http://i.imgur.com/aqmHnnp.jpg?1);
+}
+
+.parallax-5 {
+	background-image: url(http://i.imgur.com/OvYkmAc.jpg?1);
+}
+
+.parallax-6 {
+	background-image: url(http://i.imgur.com/VSVU6R5.jpg?1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
